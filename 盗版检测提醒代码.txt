@@ -1,0 +1,29 @@
+if (getSHA1(this).equals("BD1F776E38D14F6B3193A42B03106A0487C07AC5") &&
+                System.currentTimeMillis() - preferences.getLong("app_first_install_time", 0000) > 1000 * 60 * 60 )
+        {
+            /*Dialog mShareDialog = new Dialog(this, R.style.AlertDialogStyle);
+            mShareDialog.setOnKeyListener(new DialogInterface.OnKeyListener()
+            {
+                @Override
+                public boolean onKey(DialogInterface dialog, int keyCode, KeyEvent event)
+                {
+                    if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0)
+                    {
+                        return true;
+                    }
+                    return false;
+                }
+            });
+            mShareDialog.setCancelable(false);
+            View linearLayout = LayoutInflater.from(this).inflate(R.layout.dialog_check_genuine, null, false);
+            linearLayout.findViewById(R.id.tvOk).setOnClickListener(v -> {
+                mShareDialog.dismiss();
+                Intent intent = new Intent();
+                intent.setAction("android.intent.action.VIEW");
+                Uri content_url = Uri.parse("http://www.cnblogs.com");
+                intent.setData(content_url);
+                startActivity(intent);
+            });
+            mShareDialog.setContentView(linearLayout);
+            mShareDialog.show();*/
+        }
